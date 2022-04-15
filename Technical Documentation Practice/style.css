@@ -1,0 +1,47 @@
+#main-doc { 
+  margin-top: 0px;
+  font-family: verdana;
+  }
+
+.main-section { 
+  margin: 0px 0px 0 230px;
+}
+
+header {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+li { 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+li a {
+  display: block;
+  
+}
+
+#navbar { 
+  font-family: verdana;
+  font-size: 2em;
+  position: fixed;
+  width: 220px;
+  height: 100%;
+  overflow: auto;
+ 
+}
+
+.nav-link {
+  padding: 10px 10px 10px 10px;
+  background-color: grey;
+  margin: 5px 0 0 0;
+}
+
+@media (max-width: 480px) {
+  .text {
+    font-size: 17px;
+  }
+}
